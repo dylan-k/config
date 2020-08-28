@@ -20,7 +20,19 @@ alias editgit='atom ~/.gitconfig'
 alias editbash='atom ~/.bash_profile'
 alias resource='source ~/.bash_profile && echo "Done!"'
 alias vi=vim
-alias josh=sudo
+alias dylan=sudo
+
+## Moving around
+alias up2='cd ../..'
+alias up3='cd ../../..'
+alias up4='cd ../../../..'
+alias up5='cd ../../../../..'
+alias up6='cd ../../../../../..'
+alias up7='cd ../../../../../../..'
+alias up8='cd ../../../../../../../..'
+alias up9='cd ../../../../../../../../..'
+alias up10='cd ../../../../../../../../../..'
+alias ut='cd /'
 
 ## Git commands
 alias log='git log'
@@ -67,9 +79,6 @@ alias gtest='testrb test/integration/bundle_test.rb'
 
 ## Mobile iOS testing
 alias ios='open /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app'
-
-# Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
 
 # rbenv
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
